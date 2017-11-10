@@ -1,0 +1,17 @@
+{
+  "name": "my-virtual-dom",
+  "version": "1.0.0",
+  "description": "1. DOM树用纯粹的JS对象进行表示",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "babel index.js --out-file compiled.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1"
+  }
+}
